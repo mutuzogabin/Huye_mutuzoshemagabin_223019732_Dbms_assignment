@@ -1,0 +1,342 @@
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 412
+Server version: 8.3.0 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE RUHANDE
+Database changed
+mysql> SELECT * NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NGOMA' at line 1
+mysql> SELECT *NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NGOMA' at line 1
+mysql> SELECT FROM *NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM *NGOMA' at line 1
+mysql> SELECT FROM * NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM * NGOMA' at line 1
+mysql> SELECT FROM *NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM *NGOMA' at line 1
+mysql>
+mysql>
+mysql> SELECT FROM * NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM * NGOMA' at line 1
+mysql> SELECT FROM * NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM * NGOMA' at line 1
+mysql> SELECT FROM *NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM *NGOMA' at line 1
+mysql> SELECT *FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | VILLAGE  | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | HUYE     | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> SELECT *FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | HUYE     | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> UPADTE NGOMA SET TEL = '0787466576' WHERE PROVINCE = 'SOUTH';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPADTE NGOMA SET TEL = '0787466576' WHERE PROVINCE = 'SOUTH'' at line 1
+mysql> UPADTE NGOMA SET TEL = '0787466576' WHERE PROVINCE = 'SOURTH';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPADTE NGOMA SET TEL = '0787466576' WHERE PROVINCE = 'SOURTH'' at line 1
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | HUYE     | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set DISTRICT = 'KARONGI' where FIRSTNAME = 'IASHIMWE';
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | HUYE     | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set DISTRICT = 'HUYE',DISTRICT = 'KARONGI' where FIRSTNAME = 'IASHIMWE';
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | HUYE     | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set DISTRICT = 'KARONGI' where FIRSTNAME = 'ISHIMWE';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   |     | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |     | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |     | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |     | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |     | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |     | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |     | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |     | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |     | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |     | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+-----+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0786577845' where FIRSTNAME = 'ISHIMWE';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0786577845 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | HUYE     | TUMBA     | TUMBA    |            | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |            | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | MUHANGA  | taba      | mukoni   |            | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |            | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |            | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |            | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set DISTRICT = 'KARONGI' where PROVINCE = 'SOURTH';
+Query OK, 3 rows affected (0.00 sec)
+Rows matched: 4  Changed: 3  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0786577845 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    |            | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   |            | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   |            | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |            | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |            | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |            | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788766543' where DISTRICT = 'KARONGI';
+Query OK, 4 rows affected (0.00 sec)
+Rows matched: 4  Changed: 4  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |            | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   |            | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   |            | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788897643' where DISTRICT = 'KIREHE';
+Query OK, 2 rows affected (0.00 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |            | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   | 0788897643 | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   | 0788897643 | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788766887' where DISTRICT = 'EAST';
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   |            | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   | 0788897643 | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   | 0788897643 | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788898890' where DISTRICT = 'GASABO';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   | 0788898890 | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   |            | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   | 0788897643 | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   | 0788897643 | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788898876' where DISTRICT = 'KICUKIRO';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   | 0788898890 | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   | 0788898876 | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   | 0788897643 | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   | 0788897643 | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI |            | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  |            | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  |            | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql> update ngoma set TEL = '0788898890' where DISTRICT = 'NGOMA';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update ngoma set TEL = '0788898890' where DISTRICT = 'RUBAVU';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update ngoma set TEL = '0788898890' where DISTRICT = 'MUSANZE';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA;
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+| ID   | FIRSTNAME      | LASTNAME | GENDER | PROVINCE | DISTRICT | SECTOR    | CELL     | TEL        | EMAIL                   |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+|    1 | ISHIMWE        | ALINE    | F      | SOURTH   | KARONGI  | NGOMA     | BUTARE   | 0788766543 | ishimwealine@gmail.com  |
+|    2 | UWERA          | ALICE    | F      | SOURTH   | KARONGI  | TUMBA     | TUMBA    | 0788766543 | uweralice@gmail.com     |
+|    3 | SHEMA          | KAGABO   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | shemakagabo@gmail.com   |
+|    4 | MUGABO         | ARSENE   | M      | SOURTH   | KARONGI  | taba      | mukoni   | 0788766543 | mucyoaldon@gmail.com    |
+|    5 | MANZI          | AORON    | M      | KIGALI   | GASABO   | KINYINYA  | KAGUGU   | 0788898890 | manzialdon@gmail.com    |
+|   13 | MURUNGI        | PHIONA   | F      | KIGALI   | KICUKIRO | GAHANGA   | RUBAYA   | 0788898876 | murungaldon@gmail.com   |
+|   15 | MUCYO_NAMAHORO | CYNTHIA  | F      | EAST     | KIREHE   | MPANGA    | GITOMA   | 0788897643 | namahorcynthia@gmail.co |
+|   17 | RWABAGABO      | CALINE   | F      | EAST     | KIREHE   | Musaza    | pilote   | 0788897643 | ghjk78nthia@gmail.co    |
+|   19 | NTAKIRUTIMANA  | INNOCENT | M      | EAST     | NGOMA    | KIGARAMA  | MUSHONGI | 0788898890 | 78nthia@gmail.co        |
+|   21 | NDIZEYE        | PATRICK  | M      | WEST     | RUBAVU   | GISENYI   | GISENYI  | 0788898890 | FGHJKia@gmail.co        |
+|   20 | MUKIZA         | JAMES    | M      | NORTH    | MUSANZE  | RUHENGERI | musanze  | 0788898890 | ghjhgfKia@gmail.co      |
++------+----------------+----------+--------+----------+----------+-----------+----------+------------+-------------------------+
+11 rows in set (0.00 sec)
+
+mysql>
